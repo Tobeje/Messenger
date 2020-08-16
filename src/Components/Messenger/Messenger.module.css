@@ -1,0 +1,44 @@
+.message_card {
+  margin: 10px;
+  width: fit-content;
+}
+
+.message_user {
+  margin-left: auto;
+  color: white;
+  text-align: right;
+}
+
+.message_userCard {
+  background-color: #0b81ff !important;
+}
+
+.message_guestCard {
+  background-color: #e9e9eb !important;
+}
+
+.messenger_form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+  background-color: #fff;
+  width: 90%;
+  margin: 20px;
+  border-radius: 999px;
+}
+
+.message_formControl {
+  display: flex !important;
+  flex-direction: row !important;
+  align-content: space-around;
+}
+.messenger_input {
+  flex: 1;
+  margin: 0px 5px !important;
+}
+.messenger_iconButton {
+  flex: 0;
+  margin: 10px;
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
